@@ -1,0 +1,142 @@
+html, body {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+body, h1 {
+    margin: 0;
+    border: 0;
+    font-family: 'Times New Roman', Times, serif;
+ }
+
+.Main_Title {
+  color: #ffffff;
+  font-size: calc(8px + 62 * (100vw / 1980));
+  padding-top: 400px;
+ }
+
+ @media(max-width: 767px) {
+  .Main_Title{
+    font-size: calc(8px + (62 + 62 * 0.7) * ((100vw - 50px) / 1980));
+  }
+ }
+
+.glass {
+    width: 99.1vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+ }
+
+ .Main-box {
+  width: 100vw;
+  height: 100vh;
+  text-align: justify;
+  overflow-y: auto;
+  scroll-snap-type: y mandatory;
+ }
+
+  .boxes-text {
+    font-size: calc(5px + 35 * (100vw / 1980));
+    margin: 0;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 10px;
+    color: #dadada;
+ }
+
+ @media(max-width: 767px) {
+  .boxes-text {
+    font-size: calc(5px + (35 + 35 * 0.7) * ((100vw - 50px) / 1980));
+  }
+ }
+
+  .Boxes-Title {
+    font-size: 50px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 0;
+    padding-top: 20px;
+  }
+  
+  .box {
+    height: 100vh;
+    max-width: 1980px;
+    scroll-snap-align: center;
+    scroll-snap-stop: always;  
+  }
+
+  .box:nth-child(1) {
+    background-image: url(../Image/maxresdefault.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+ }
+
+  .box:nth-child(2) {
+    background-image: url(../Image/Vergil-Closeup-Devil-May-Cry.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .box:nth-child(3) {
+    background-image: url(../Image/devil-may-cry-5-special-edition-vergil-hands-on-preview_6beq.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .box:nth-child(4) {
+    background-image: url(../Image/vergil-dmc-5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .box:nth-child(5) {
+    background-image: url(../Image/dmc5vergilblogroll-1601210534500_160w.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .box:nth-child(6) {
+    background-image: url(../Image/Vergil.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .box:nth-child(7) {
+    background-image: url(../Image/-1603792848324.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .footer-text1 {
+    font-size: calc(10px + 70 * (100vw / 1980));
+    padding-top: 400px;
+    color: #ffffff;
+    text-align: center;
+  }
+
+  @media(max-width: 767px) {
+    .footer-text1 {
+      font-size: calc(10px + (70 + 70 * 0.7) * ((100vw - 50px) / 1980));
+    }
+   } 
+
+  .footer-text2{
+    font-size: calc(8px + 62 * (100vw / 1980));
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  @media(max-width: 767px) {
+    .footer-text2 {
+      font-size: calc(8px + (62 + 62 * 0.7) * ((100vw - 50px) / 1980));
+    }
+   }
